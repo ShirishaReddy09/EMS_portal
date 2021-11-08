@@ -1,0 +1,17 @@
+.centered
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.d{
+    border-radius: 0.5;
+    background-color:orange;
+    padding:20px 30px;
+    font-size: 25px;
+    margin:4px 2px;
+    border:none;
+    color:black;
+    margin-left: 10px;
+}    

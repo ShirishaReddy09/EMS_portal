@@ -1,0 +1,20 @@
+.b{
+border-radius: 0.5;
+background-color:#6495ED;
+padding:10px 20px;
+font-size: 15px;
+margin:4px 2px;
+border:none;
+color:black;
+margin-left: 10px;
+}
+.d{
+    border-radius: 0.5;
+    background-color: red;
+    padding:10px 20px;
+    font-size:15px;
+    margin:4px 2px;
+    border:none;
+    color:black;
+    margin-left: 10px;
+    }
