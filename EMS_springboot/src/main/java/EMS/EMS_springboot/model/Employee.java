@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
+
 
 @Entity
 @Table(name = "employees")
@@ -14,6 +16,7 @@ public class Employee {
 	private long id;
 	private String firstName;
 	private String lastName;
+  @Email
 	private String emailId;
 	private String dept;
 	private String designation;
