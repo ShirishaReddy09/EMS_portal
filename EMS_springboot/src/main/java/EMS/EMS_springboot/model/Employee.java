@@ -7,6 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+
 
 
 @Entity
@@ -14,11 +16,16 @@ import javax.validation.constraints.Email;
 public class Employee {
 
 	private long id;
+  @NotNull
 	private String firstName;
+   @NotNull
 	private String lastName;
   @Email
+   @NotNull
 	private String emailId;
+   @NotNull
 	private String dept;
+   @NotNull
 	private String designation;
 	
 	public Employee() {
